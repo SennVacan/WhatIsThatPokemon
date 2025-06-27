@@ -1,0 +1,16 @@
+{
+    "image_hashes": {
+        "d10a45f88080f7e3f647d009ca0502c54b4c32c1e7ee38112e2fe7e73a8d44c6": "Ekans",
+        "db4997eb130aebce5799abd42b27dca490251298a92bd059b7ab0b5231071ea8": "Axew"
+    },
+    "pokemon": {
+        "Ekans": {
+            "count": 1,
+            "first_seen": "now"
+        },
+        "Axew": {
+            "count": 1,
+            "first_seen": "now"
+        }
+    }
+}
