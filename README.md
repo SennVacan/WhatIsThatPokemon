@@ -1,12 +1,8 @@
 # Pokémon Identifier Bot
 
-This Discord bot is designed to identify Pokémon from images posted by the Poketwo bot. When Poketwo spawns a Pokémon and posts its silhouette, this bot will attempt to identify which Pokémon it is.
+This Discord bot is designed to identify Pokémon from images posted by the Poketwo bot. When Poketwo spawns a Pokémon, the bot will look into database for the matching hash of that picture, if it sees then it will tell the pokemon's name, if not then it will wait for you to answer and store it in its system
 
-## Features
 
-- Automatically detects when Poketwo spawns a Pokémon
-- Identifies the Pokémon from the image (Note: This is a basic implementation that needs to be expanded with actual image recognition)
-- Simple command interface
 
 ## Setup Instructions
 
@@ -63,13 +59,6 @@ Once the bot is running and added to your server, it will automatically detect w
 Commands:
 - `!help-pokemon` - Display help information
 - `!setup` - Set up the bot in the current channel (requires administrator permissions)
-
-## Future Improvements
-
-- Implement actual image recognition to identify Pokémon
-- Add a database of Pokémon images for reference
-- Add more commands for configuration
-- Improve accuracy of identification
 
 ## Disclaimer
 
